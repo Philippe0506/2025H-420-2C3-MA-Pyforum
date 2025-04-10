@@ -10,7 +10,7 @@ class BD:
         self.utilisateurs_forums = {}
         print("Base de données initialisée.")
     
-    def creer_utilisateur(self, username: str) -> Utilisateur:
+    def creer_utilisateur(self, username: str, email: str, mot_de_passe: str) -> Utilisateur:
         #                       ^^^^^^^^^^^^^^
         #            # TODO:    Vous devez ajouter les autres paramètres requis
 
@@ -39,7 +39,7 @@ class BD:
         #                ^^^^^^
         #                Vous devez ajouter les autres paramètres requis
         # TODO: Implanter la logique pour créer un forum
-        pass
+        
 
     def creer_publication(self, publication):
         #                       ^^^^^^^^^^^
